@@ -1,9 +1,9 @@
 def position_taken?(board, index)
 
-taken = nil
-if (board[index] == " " || board[index] == "" || board[index] == nil)
+  taken = nil
+  if (board[index] == " " || board[index] == "" || board[index] == nil)
     taken = false
-else
+  else
     taken = true
-end
+  end
 taken
